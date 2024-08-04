@@ -10,7 +10,7 @@ import productRoutes from "./routes/product.js"
 import transactionRoutes from "./routes/transaction.js"
 import Product from "./models/Product.js"
 import Transaction from "./models/Transaction.js"
-//import KPI from "./models/KPI.js";
+import KPI from "./models/KPI.js";
 import { kpis, products, transactions } from "./data/data.js";
 
 /*CONFIGURATIONS */
